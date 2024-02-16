@@ -14,3 +14,4 @@ const validatePassword = (password: string) :  boolean => {
 const validateConfirmPassword = (password: string, confirmPassword: string) : boolean => {
     return password === confirmPassword
 }
+export {validateName, validateEmail, validatePassword, validateConfirmPassword}
